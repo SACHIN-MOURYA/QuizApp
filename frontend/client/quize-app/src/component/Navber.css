@@ -1,0 +1,35 @@
+.nav_out_bar{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0px 28px 0px 30px;
+}
+.navbar-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.navbar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: white; */
+    color: blue;
+    border: 1ps solid black;
+    border-radius: 7px;
+}
+.login_but{
+    padding: 12px;
+    border-radius: 50%;
+    background: #e4cfcf;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
